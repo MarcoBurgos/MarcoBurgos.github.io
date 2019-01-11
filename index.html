@@ -22,39 +22,6 @@
 <body>
 <div class="outer-container">
     <header class="site-header">
-        <div class="top-header-bar">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6 flex align-items-center">
-                        <div class="header-bar-text d-none d-lg-block">
-                            <p></p>
-                        </div><!-- .header-bar-text -->
-
-                        <div class="header-bar-email d-none d-lg-block">
-                            <a href="#"></a>
-                        </div><!-- .header-bar-email -->
-                    </div><!-- .col -->
-
-                    <div class="col-12 col-lg-6 flex justify-content-between justify-content-lg-end align-items-center">
-                        <div class="header-bar-social d-none d-md-block">
-                            <ul class="flex align-items-center">
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div><!-- .header-bar-social -->
-
-                        <div class="header-bar-search d-none d-md-block">
-                            <form>
-                                <input type="search" placeholder="Search">
-                            </form>
-                        </div><!-- .header-bar-search -->
-                    </div><!-- .col -->
-                </div><!-- .row -->
-            </div><!-- .container-fluid -->
-        </div><!-- .top-header-bar -->
-
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -75,29 +42,13 @@
 
                         <ul class="flex-lg flex-lg-row justify-content-lg-center align-content-lg-center">
                             <li class="current-menu-item"><a href="index.html">Home</a></li>
-                            <li><a href="blog.html">Fashion</a></li>
+                            <li><a href="section.html">Fashion</a></li>
                             <li><a href="#">Beauty</a></li>
                             <li><a href="#">Fitness</a></li>
                             <li><a href="#">Lifestyle</a></li>
                             <li><a href="#">Shop</a></li>
                         </ul>
 
-                        <div class="header-bar-social d-md-none">
-                            <ul class="flex justify-content-center align-items-center">
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div><!-- .header-bar-social -->
-
-                        <div class="header-bar-search d-md-none">
-                            <form>
-                                <input type="search" placeholder="Search">
-                            </form>
-                        </div><!-- .header-bar-search -->
                     </nav><!-- .site-navigation -->
                 </div><!-- .col -->
             </div><!-- .row -->
@@ -111,15 +62,15 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="hero-content flex justify-content-center align-items-center flex-column">
-                              <img src="images/fotos/header.JPG" alt="">
+                                  <img src="images/fotos/header.JPG" class="featured-image-main">
                               <div class="bottom-left">Title for feature post</div>
                             </div><!-- .hero-content -->
                         </div><!-- .swiper-slide -->
 
                         <div class="swiper-slide">
                             <div class="hero-content flex justify-content-center align-items-center flex-column">
-                                <img src="images/slider.jpg" alt="">
-                                <div class="bottom-left">Title for 2nd feature post</div>
+                                  <img src="images/slider.jpg" class="featured-image-main">
+                              <div class="bottom-left">Title for feature post</div>
                             </div><!-- .hero-content -->
                         </div><!-- .swiper-slide -->
 
@@ -244,11 +195,22 @@
             <div class="col-12 col-lg-3">
                 <div class="sidebar">
                     <div class="about-me">
-                      <img src="images/fotos/about.jpeg" alt="Youtube Subscribe">
+                      <figure class="featured-image-about-me">
+                          <img src="images/fotos/about.jpeg" alt="Youtube Subscribe">
+                      </figure>
                       <h2 class="about-me">About Me</h2>
                       <h3 class="about-me">I’m Nayeli</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem a consequat. Proin nec interdum sem. Quisque in porttitor magna.</p>
                     </div><!-- .about-me -->
+
+                    <div class="header-bar-social d-none d-md-block">
+                        <ul class="flex align-items-center">
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div><!-- .header-bar-social -->
 
                     <div class="recent-posts">
                         <div class="recent-post-wrap">

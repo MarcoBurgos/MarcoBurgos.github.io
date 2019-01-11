@@ -344,8 +344,13 @@ a:hover, a:active {
 }
 
 .hero-slider img {
-    width: 100%;
-    height: auto;
+  margin-top: 1px;
+  width: 100%;
+  height: 100%;
+  max-width: 1320px;
+  max-height: 558px;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets,
@@ -505,8 +510,29 @@ a:hover, a:active {
 }
 
 .single-page .content-wrap .featured-image img {
-    max-width: 100%;
-    margin-top: 0px;
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    max-width: 1100px;
+    max-height: 600px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+.featured-image-about-me img {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    max-width: 255px;
+    max-height: 318px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+.featured-image-main img {
+
 }
 
 .single-page .content-wrap .featured-image-post img {
@@ -514,6 +540,17 @@ a:hover, a:active {
     height: 100%;
     max-width: 1100px;
     max-height: 600px;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+
+.single-page .content-wrap .featured-image-section img {
+    width: 100%;
+    height: 100%;
+    max-width: 825;
+    max-height: 500px;
     object-fit: cover;
     overflow: hidden;
 
@@ -648,6 +685,12 @@ a:hover, a:active {
   position: relative;
   text-align: center;
   color: white;
+}
+
+.container-header {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
 }
 
 /* Bottom left text */
@@ -875,8 +918,12 @@ a:hover, a:active {
     color: #2f2f2f;
 }
 
+.display-2-header p {
+  color: black;
+}
+
 .contact-form {
-    margin-top: 90px;
+    margin-top: 10px;
 }
 
 .contact-form input[type="text"],
@@ -919,6 +966,22 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .sidebar {
     margin-top: 110px;
+}
+
+.sidebar-about-me {
+    margin-top: 50px;
+}
+
+.sidebar-about-me .tags-list a {
+    display: inline-block;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    padding: 14px 25px;
+    font-size: 11px;
+    color: #fff;
+    background: #2f2f2f;
+    text-transform: uppercase;
+    letter-spacing: 0.08rem;
 }
 
 .single-page .sidebar {
@@ -965,8 +1028,8 @@ a:hover, a:active {
 }
 
 .about-me img {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -1046,6 +1109,11 @@ a:hover, a:active {
     text-align: center;
 }
 
+.sidebar-about-me .tags-list {
+    margin-top: 100px;
+    text-align: center;
+}
+
 .sidebar .tags-list a {
     display: inline-block;
     margin-right: 7px;
@@ -1058,10 +1126,28 @@ a:hover, a:active {
     letter-spacing: 0.08rem;
 }
 
+.sidebar-about-me .tags-list a {
+    display: inline-block;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    padding: 14px 25px;
+    font-size: 11px;
+    color: #fff;
+    background: #2f2f2f;
+    text-transform: uppercase;
+    letter-spacing: 0.08rem;
+
+}
+
 @media screen and (min-width: 576px) {
     .sidebar .tags-list {
         text-align: left;
     }
+
+    @media screen and (min-width: 576px) {
+        .sidebar-about-me .tags-list {
+            text-align: left;
+        }
 }
 
 /*--------------------------------------------------------------
